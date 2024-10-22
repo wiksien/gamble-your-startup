@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import "./globals.css";
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
 
@@ -31,7 +30,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script defer src="http://umami-kk0oo8wkosg8gggos84sc4k8.5.161.97.168.sslip.io/script.js" data-website-id="9ea9b781-deb6-49a2-8e17-764fedb009da"></script>
+        <Script
+          async
+          src="http://umami-kk0oo8wkosg8gggos84sc4k8.5.161.97.168.sslip.io/script.js"
+          data-website-id="9ea9b781-deb6-49a2-8e17-764fedb009da"
+        />
       </head>
       <body className={inter.className}>
         <button
