@@ -32,8 +32,8 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src="http://umami-kk0oo8wkosg8gggos84sc4k8.5.161.97.168.sslip.io/script.js"
-          data-website-id="9ea9b781-deb6-49a2-8e17-764fedb009da"
+          src="https://umami.catpicturedaily.com/script.js"
+          data-website-id="18cb3c37-bf6a-4607-80ca-f8bc2546d7a9"
         />
       </head>
       <body className={inter.className}>
