@@ -8,11 +8,6 @@ import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Gamble Your Startup',
-  description: 'Generate random startup ideas',
-}
-
 export default function RootLayout({
   children,
 }: {
